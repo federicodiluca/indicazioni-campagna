@@ -9,11 +9,14 @@
   width: 100%;
 }
 
-.hero-centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -80%);
+
+@media(min-width: 500px) { 
+  .hero-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
 }
 
 @media(max-width: 500px) { 
