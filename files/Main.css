@@ -28,7 +28,6 @@ body {
   width: 100%;
 }
 
-
 @media(min-width: 500px) { 
   .hero-centered {
     position: absolute;
@@ -43,6 +42,10 @@ body {
     transform: translate(0, 0);
     color: black;
   } 
+}
+
+.hero-centered p {
+  font-weight: 600;
 }
 
 .header {
@@ -93,6 +96,7 @@ body {
 .crop-height {
   max-height: 550px;
   overflow: hidden; 
+  transform: translate(0, -15%);
 }
 
 .crop-height img {
@@ -100,6 +104,5 @@ body {
   max-width: 100%;
   height: auto !important;
   width: auto\9;
-  -ms-interpolation-mode: bicubic; 
-  transform: translate(0, -15%);
+  -ms-interpolation-mode: bicubic;
 }
