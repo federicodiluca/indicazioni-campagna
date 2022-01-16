@@ -69,7 +69,7 @@ body {
   margin-top: 40px;
   margin-bottom: -150px;
   height: 450px;
-  transform: translate(0, -200px);
+  transform: translate(0, -240px);
 }
 
 @media(max-width: 500px) { 
@@ -96,7 +96,7 @@ body {
 .crop-height {
   max-height: 550px;
   overflow: hidden; 
-  transform: translate(0, -15%);
+  transform: translate(0, -10%);
 }
 
 .crop-height img {
